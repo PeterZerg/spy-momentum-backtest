@@ -6,7 +6,9 @@ long/flat strategy backtested in Rust → a **shareable equity-curve report**
 
 ## 📊 Shareable artifact
 
-**Live report (GitHub Pages):** <!--PAGES_URL-->
+**Live report (GitHub Pages):** **https://peterzerg.github.io/spy-momentum-backtest/**
+
+**Repo:** https://github.com/PeterZerg/spy-momentum-backtest
 
 The live page embeds the equity-curve chart and the metrics table and is fully
 self-contained (no external assets). The same chart is also committed as a
