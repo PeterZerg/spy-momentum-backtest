@@ -1,0 +1,16 @@
+[package]
+name = "momentum-backtest"
+version = "0.1.0"
+edition = "2021"
+description = "20-day momentum long/flat backtest on daily SPY returns with a shareable equity-curve report"
+
+[[bin]]
+name = "momentum-backtest"
+path = "src/main.rs"
+
+[lib]
+name = "momentum_backtest"
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = 3
